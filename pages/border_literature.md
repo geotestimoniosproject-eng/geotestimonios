@@ -11,12 +11,11 @@ gallery: true
 This exhibit presents novels, literary works, and their metadata in relation to border literature themes.
 
 
-
 ## Curatorial Notes
 
 [Add reflections or interpretive text about the exhibit.]
 
-## Gallery
+## Border Literature Exhibit
 
 <div class="border-gallery">
 {% for row in site.data.border_literature %}

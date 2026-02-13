@@ -1,4 +1,50 @@
-/* 
-    Put your custom SCSS here! 
-    This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
-*/
+/* Custom navbar background color override */
+.navbar {
+    background-color: #d2afff !important;
+}
+/* Flexbox for side-by-side team members */
+.team-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin-bottom: 2em;
+    justify-content: center;
+}
+.team-member {
+    flex: 1 1 260px;
+    min-width: 220px;
+    max-width: 380px;
+    text-align: center;
+}
+
+.team-member {
+    /* Center headings and images, justify text */
+}
+.team-member strong,
+.team-member .team-role {
+    text-align: center;
+    display: block;
+}
+.team-member .team-bio {
+    text-align: justify;
+}
+.team-role {
+    display: block;
+    font-weight: 600;
+    margin: 0.5em 0 0.25em 0;
+}
+.team-bio {
+    display: block;
+    font-size: 0.95em;
+    color: #444;
+}
+
+/* Uniform team member photo sizing */
+.team-photo {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto 0.5em auto;
+}
