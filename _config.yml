@@ -18,7 +18,7 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-csv
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: CollectionBuilder CSV
+title: Geotestimonios
 # tagline, a short phrase that will appear throughout the site in the top banner
 tagline: Digital Collection Magic with Static Web Technologies
 # description appears in meta tags and other locations
@@ -77,3 +77,21 @@ exclude: [docs/, Rakefile, rakelib/, README.md, LICENSE, CITATION.cff, CODE_OF_C
 # compress CSS output
 sass:
   style: compressed
+
+nav_order:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Methodology
+    url: /methodology/
+  - title: How to Navigate the Site
+    url: /how-to-navigate-the-site/
+  - title: Border Literature Exhibit 
+    url: /border-literature/
+  - title: Cartografias literárias
+    url: /cartografias-literárias/
+  - title: Resources
+    url: /resources/
+  - title: How to Cite
+    url: /cite/

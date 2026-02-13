@@ -1,39 +1,19 @@
 ---
+layout: page
 title: About
-layout: about
-permalink: /about.html
-# include CollectionBuilder info at bottom
-credits: true
-# featured-image value can be one objectid for a photo object in this collection, a relative path to an image in this project, or a full url to any image. If left blank, no featured image will appear at top of About page.
-about-featured-image: demo_031
-# set background-position for featured image, "center", "top", "bottom"
-position: bottom
-# major heading to display over featured image
-heading: About the Collection
-# paragraph text below heading in featured image
-sub-heading: 
-# additional padding added to the feature to increase size. Give value in em or px, e.g. "5em".
-padding: 6em
-# Edit the markdown on in this file to describe your collection
-# Look in _includes/feature for options to easily add features to the page
+permalink: /about/
+nav: true
 ---
 
-## About CollectionBuilder CSV
+## Project Overview
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+GeoTestimonios Transfronterizxs is a living border-community storytelling project that reappropriates personal experiences through testimonies and literary narratives about life in the El Paso-Juárez border region. This work is a collaboration between border poet and author Gris Muñoz and academic and digital humanist Sylvia Fernández Quintanilla. It aims to record and preserve the lives, experiences, and voices of women from a variety of racial and ethnic backgrounds living in a particular border area affected by gentrification, lack of mobility, urban policies and changing ecosystems. It will increase awareness of the experiences of women living in the border region as a way to heal and create a trans-border community of solidarity. The project includes an interactive map and digital exhibit of the border region, allowing users to access partly through points in space and in different formats stories of the two border women creating this project, as well as other storytellers who record their own stories in the language/format with which they feel most comfortable.
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
+## Logo and Artist Credit
 
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
+![alt text](../objects/logo.png)
+Art by:
 
-{% include feature/image.html objectid="demo_001" width="75" %} 
-
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+## Timeline
