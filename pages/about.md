@@ -13,7 +13,8 @@ GeoTestimonios Transfronterizxs is a living border-community storytelling projec
 
 ## Logo and Artist Credit
 
-![alt text](../objects/logo.png)
+![GeoTestimonios Transfronterizos logo designed by a border artist, featuring culturally significant imagery representing the El Paso-Juárez border region and community solidarity](/assets/img/logo.png)
+
 Art by:
 
 ## Timeline
