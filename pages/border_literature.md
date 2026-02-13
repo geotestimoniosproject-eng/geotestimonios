@@ -10,13 +10,6 @@ gallery: true
 
 This exhibit presents novels, literary works, and their metadata in relation to border literature themes.
 
-## Covers and Metadata
-
-Each item includes:
-- Author
-- Edition
-- Title
-- Keywords
 
 
 ## Curatorial Notes
