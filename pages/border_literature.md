@@ -3,6 +3,7 @@ layout: page
 title: Border Literature Exhibit
 permalink: /border-literature/
 nav: true
+gallery: true
 ---
 
 ## Overview
@@ -22,18 +23,18 @@ Each item includes:
 
 [Add reflections or interpretive text about the exhibit.]
 
+## Gallery
 
-[def]: ../objects/object_list.csv
-
-## Items
-
-{% for book in site.data.border-literature %}
-	<div class="border-book">
-		<h2>{{ book.title }}</h2>
-		<p>{{ book.author }} — {{ book.edition }}</p>
-		{% if book.image %}
-			<img src="{{ book.image }}" alt="{{ book.title }}">
-		{% endif %}
-		<p>{{ book.description }}</p>
-	</div>
+<div class="border-gallery">
+{% for row in site.data['border-literature - Sheet1'] %}
+  <div class="border-book-item">
+    <a class="spotlight gallery-img" href="{{ row.image }}" title="{{ row.title }}">
+      <img src="/assets/images/covers/thumbs/{{ row.objectid }}_th.jpg" alt="{{ row.title }}">
+    </a>
+    <div class="book-info">
+      <h3>{{ row.title }}</h3>
+      <p class="byline">{{ row.author }} — {{ row.edition }}</p>
+    </div>
+  </div>
 {% endfor %}
+</div>
