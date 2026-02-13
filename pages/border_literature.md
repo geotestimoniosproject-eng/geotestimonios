@@ -28,8 +28,8 @@ Each item includes:
 <div class="border-gallery">
 {% for row in site.data.border_literature %}
   <div class="border-book-item">
-    <a class="spotlight gallery-img" href="{{ row.image }}" title="{{ row.title }}">
-      <img src="/assets/images/covers/thumbs/{{ row.objectid }}_th.jpg" alt="{{ row.title }}">
+    <a class="spotlight gallery-img" href="{{ row.image }}" title="{{ row.title | replace: '"', '&quot;' }}">
+      <img src="/assets/images/covers/thumbs/{{ row.objectid }}_th.jpg" alt="{{ row.title | replace: '"', '&quot;' }}">
     </a>
     <div class="book-info">
       <h3>{{ row.title }}</h3>
