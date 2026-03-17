@@ -8,7 +8,7 @@ gallery: true
 
 ## Overview
 
-This exhibit presents novels, literary works, and their metadata in relation to border literature themes.
+This exhibit presents novels, literary works, and their metadata in relation to border literature themes. Please click on the novel to see the full cover. 
 
 
 ## Curatorial Notes
@@ -26,6 +26,7 @@ This exhibit presents novels, literary works, and their metadata in relation to 
     <div class="book-info">
       <h3>{{ row.title }}</h3>
       <p class="byline">{{ row.author }} — {{ row.edition }}</p>
+      <p class="genre">{{ row.genre }}</p>
     </div>
   </div>
 {% endfor %}

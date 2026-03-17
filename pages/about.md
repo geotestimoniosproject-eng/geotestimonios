@@ -13,8 +13,14 @@ GeoTestimonios Transfronterizxs is a living border-community storytelling projec
 
 ## Logo and Artist Credit
 
-![GeoTestimonios Transfronterizos logo designed by a border artist, featuring culturally significant imagery representing the El Paso-Juárez border region and community solidarity](assets/img/logo.png)
+<p align="center">
+  <img src="/assets/img/logo.png" alt="GeoTestimonios Transfronterizos logo" style="max-width:220px; display:block; margin:auto;" />
+</p>
 
-Art by:
+The GeoTestimonios Transfronterizos logo was created by [LxsDos](https://www.lxsdos.com/), the acclaimed husband and wife art duo Ramon Cardenas and Christian Pardo Cardenas. Their design features culturally significant imagery that celebrates the El Paso–Juárez border region and the spirit of community solidarity.
+
+Art by: [LxsDos](https://www.lxsdos.com/) (Ramon Cardenas & Christian Pardo Cardenas)
+
+
 
 ## Timeline
