@@ -18,11 +18,12 @@ This exhibit presents novels, literary works, and their metadata in relation to 
 ## Border Literature Exhibit
 
 <div class="border-gallery">
-{% for row in site.data.border_literature %}
+{% assign sorted_border_literature = site.data.border_literature | sort: "genre" %}
+{% for row in sorted_border_literature %}
   <div class="border-book-item">
-    <a class="spotlight gallery-img" href="{{ row.image }}" title="{{ row.title | replace: '"', '&quot;' }}">
+    <span class="gallery-img">
       <img src="/assets/images/covers/thumbs/{{ row.objectid }}_th.jpg" alt="{{ row.title | replace: '"', '&quot;' }}">
-    </a>
+    </span>
     <div class="book-info">
       <h3>{{ row.title }}</h3>
       <p class="byline">{{ row.author }} — {{ row.edition }}</p>
