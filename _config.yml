@@ -13,11 +13,10 @@ url: "https://www.geotestimoniostransfronterizos.com"
 # path to location on the domain if necessary e.g. /digital/hjccc
 baseurl: ""
 # location of code, the full url to your github repository
-source-code: https://github.com/CollectionBuilder/collectionbuilder-csv
+source-code: https://github.com/geotestimoniosproject-eng/geotestimonios
 
 ##########
 # SITE SETTINGS
-#
 # title of site appears in banner
 title: Geotestimonios Transfronterizxs
 # tagline, a short phrase that will appear throughout the site in the top banner
