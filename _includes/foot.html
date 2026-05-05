@@ -3,6 +3,7 @@
 <!-- load other js -->
 <script src="{{ site.lib-assets | default: '/assets/lib' | relative_url }}/lazysizes.min.js" async></script>
 {% if layout.gallery == true or page.gallery == true %}<script src="{{ site.lib-assets | default: '/assets/lib' | relative_url }}/spotlight.bundle.js" defer></script>{% endif %}
+{% comment %}
 {% if page.custom-foot or layout.custom-foot %}
 {%- assign page_feet = page.custom-foot | split: ";" -%}
 {%- assign layout_feet = layout.custom-foot | split: ";" -%}
@@ -10,3 +11,21 @@
 {% for f in feet %}{% include {{ f }} %}
 {% endfor %}
 {%- endif -%}
+{% endcomment %}
+{% if page.custom-foot or layout.custom-foot %}
+  {%- assign page_feet = page.custom-foot | default: "" | split: ";" -%}
+  {%- assign layout_feet = layout.custom-foot | default: "" | split: ";" -%}
+  {%- assign feet = page_feet | concat: layout_feet -%}
+
+  {% for f in feet %}
+    {% assign foot_file = f | strip %}
+
+    {% if foot_file == "maps.html" %}
+      {% include maps.html %}
+    {% elsif foot_file == "gallery.html" %}
+      {% include gallery.html %}
+    {% elsif foot_file == "timeline.html" %}
+      {% include timeline.html %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
