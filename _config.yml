@@ -9,9 +9,9 @@
 #
 # site domain, full URL to the production location of your collection
 # site domain, full URL to the production location of your collection
-url: "https://www.geotestimoniostransfronterizos.com"
+url: "https://geotestimoniosproject.github.io"
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: ""
+baseurl: "/geotestimonios"
 # location of code, the full url to your github repository
 source-code: https://github.com/geotestimoniosproject-eng/geotestimonios
 
